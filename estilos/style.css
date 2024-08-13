@@ -81,9 +81,6 @@ div.campo > label {
     display: none;
 }
 
-div.campo {
-    position: relative;
-}
 
 div.campo > i {
     color: white;
@@ -94,6 +91,7 @@ div.campo > i {
 }
 
 div.campo > input {
+    position: relative;
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 44px);
