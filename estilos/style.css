@@ -90,22 +90,22 @@ div.campo > i {
     font-size: 2em;
     width: 40px;
     padding: 5px;
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+    
 }
 
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 54px); /* Ajuste para deixar espaço para o ícone */
+    width: calc(100% - 44px);
+   
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    padding: 4px 4px 4px 54px; /* Espaçamento para o ícone */
-    box-sizing: border-box;
-    transform: translateX(53px);
+    padding: 4px;
+    
+   
+    transform: translate(44px, -42px);
+
 }
 
 div.campo > input:focus-within {
